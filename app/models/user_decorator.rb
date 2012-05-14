@@ -1,4 +1,4 @@
-User.class_eval do
+Spree::User.class_eval do
     
     attr_accessible :crypted_password
     
