@@ -1,0 +1,1 @@
+INSERT  spree_users (email,password_salt,login,crypted_password)  select email,password_salt,email,crypted_password FROM old_users
